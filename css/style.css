@@ -1,0 +1,23 @@
+.calculadora {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: #AFD7D8;
+}
+.botao {
+    padding: 2px 2px;
+    font-size: 10px;
+    background-color: black;
+    border: 1px solid #553f2d;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    outline: 0;
+}
+
+.botao:hover {
+    background-color: white;
+}
