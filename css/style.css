@@ -128,3 +128,7 @@ h1 {
     width: 200px;
     text-align: center;
 }
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none
+}

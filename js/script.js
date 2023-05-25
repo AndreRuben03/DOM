@@ -110,6 +110,12 @@ function notas () {
     let n2 = parseFloat(document.getElementById('n2').value);
     let n3 = parseFloat(document.getElementById('n3').value);
     let media = ((n1 + n2 + n3) / 3).toFixed(2)
-    document.getElementById('resultadonm').innerHTML = media
+    
+    if (media < 6) { 
+        document.getElementById('resultadonm').innerHTML =  media + " Reprovado";
+    } 
+    else if (media >= 6) {
+        document.getElementById('resultadonm').innerHTML =  media + " Aprovado";
+    }
     
 }
