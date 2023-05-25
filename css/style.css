@@ -1,0 +1,134 @@
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+body {
+    background-color: #AFD7D8;
+    
+}
+.botao {
+    padding: 2px 2px;
+    font-size: 15px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    outline: 0;
+}
+
+.botao:hover {
+    background-color: white;
+}
+.circulo {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+}
+
+.area_circular {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.area_triangular {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.area_retangular {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.hipotenusa {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+}
+
+.calculo_hipotenusa {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.calculo_baskhara {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.conversao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.row3 {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+}
+
+.temperatura {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.velocidade {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.notas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+input {
+    width: 200px;
+    border-radius: 2px;
+    border: 3px solid;
+}
+
+button {
+    width: 200px;
+}
+
+h1 {
+    width: 200px;
+    text-align: center;
+}
+
+nav {
+    background-color: #60958F;
+}
